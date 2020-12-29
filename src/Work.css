@@ -1,0 +1,67 @@
+.details {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: serif;
+}
+.socialMedia {
+  display: flex;
+  list-style-type: none;
+  transform: translateX(-50px);
+}
+.socialMedia li {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.socialMedia li:nth-child(1) {
+  background-color: blue;
+}
+.socialMedia li:nth-child(2) {
+  background-color: red;
+}
+.socialMedia li:nth-child(3) {
+  background-color: rgb(3, 53, 46);
+}
+.socialMedia li:nth-child(4) {
+  background-color: rgb(76, 125, 231);
+}
+.socialMedia li:nth-child(5) {
+  background-color: rgb(4, 25, 34);
+}
+.socialMedia li:nth-child(6) {
+  background-color: rgb(11, 126, 120);
+}
+.socialMedia li a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.buttons button {
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: thin solid black;
+  font-weight: bold;
+}
+.btnHire {
+  background-color: black;
+  color: white;
+}
+
+.btnResume {
+  background-color: white;
+  color: black;
+}
+
+button {
+  text-decoration: none;
+}

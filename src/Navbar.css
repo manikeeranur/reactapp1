@@ -1,0 +1,48 @@
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgba(92, 66, 71, 0.479); */
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(7, 0, 0, 0.849);
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.listItem ul {
+  display: flex;
+  align-items: center;
+}
+.listItem ul li {
+  margin-left: 50px;
+  list-style-type: none;
+  padding: 10px 20px;
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.listItem ul li:hover {
+  border-bottom: 2px solid black;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10%;
+}
